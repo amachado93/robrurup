@@ -16,7 +16,7 @@ menu, nav {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-  overflow: hidden;
+  overflow: scroll;
   box-sizing: border-box;
 }
 
@@ -47,6 +47,7 @@ img {
 	height: auto;
   max-width: 100%;
   max-height: 100%;
+	overflow: hidden;
 }
 
 .dots {
@@ -98,4 +99,10 @@ p + p {
 
 .contact-links {
 	font-weight: bold;
+}
+
+/* -- work specific styling -- */
+
+.grid {
+	align-items: center;
 }
