@@ -18,12 +18,27 @@ menu, nav {
   box-sizing: border-box;
 }
 
+p, a, li, ul, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
 .container {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
   width: 90%;
+}
+
+nav {
+	margin-top: 1em;
+}
+
+.the-menu {
+	font-size: 1.25em;
+}
+
+.the-menu > a {
+	color: #bababa;
 }
 
 a {
@@ -40,7 +55,20 @@ h1 {
   font-family: 'Shrikhand', cursive;
 }
 
+.name {
+  margin-top: .5em;
+  margin-bottom: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  border-top: solid 1px #bababa;
+  border-bottom: solid 1px #bababa;
+}
+
 img {
-  max-width: 80%;
-  max-height: 80%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.dots {
+	align-self: center;
 }
