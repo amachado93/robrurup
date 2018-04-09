@@ -89,3 +89,13 @@ h2 {
 p + p {
 	margin-top: .30em;
 }
+
+/* -- contact specific styling -- */
+
+.cool-pic {
+	margin-top: 2em;
+}
+
+.contact-links {
+	font-weight: bold;
+}
